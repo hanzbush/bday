@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Dinner Invite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffd6e7, #fff4cc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #e75480;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #444;
+      margin-top: 0;
+      font-weight: normal;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .details {
+      margin: 25px 0;
+      padding: 15px;
+      background: #fff0f6;
+      border-radius: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      background: #e75480;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #d9436d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy Birthday, My Love 💖</h1>
+    <h2>You’re invited to a special birthday dinner</h2>
+
+    <p>
+      I wanted to celebrate your birthday with a lovely dinner together.
+      I’d be really happy if you came with me.
+    </p>
+
+    <div class="details">
+      <p><strong>Date:</strong> Saturday, April 20</p>
+      <p><strong>Time:</strong> 7:00 PM</p>
+      <p><strong>Place:</strong> Bella Italia Restaurant</p>
+    </div>
+
+    <p>
+      I hope this little surprise makes your day even more special. 🎂✨
+    </p>
+
+    <a class="btn" href="#">RSVP 💌</a>
+  </div>
+</body>
+</html>
